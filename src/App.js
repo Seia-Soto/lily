@@ -1,7 +1,7 @@
 import Header from "./components/Header"
 import Container from "./components/Container"
 
-import "./index.css"
+import "./normalize.css"
 import './App.css';
 
 function App() {
