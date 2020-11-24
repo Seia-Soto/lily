@@ -1,5 +1,5 @@
-import Header from "./components/Header"
-import Container from "./components/Container"
+import Header from "./routes/Header"
+import Container from "./routes/Container"
 
 import "./normalize.css"
 import './App.css';
