@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import './Container.css'
 
-import Info from '../components/Info'
+import Info from './Info'
 
 function Container() {
     const [data, setData] = useState([])
     useEffect(() => {
         async function getData() {
-            const res = await fetch('https://doujinshiman.ga/v2/api/hitomi/list/1', { headers: { Authorization: 'hereToken' } })
+            const res = await fetch('https://doujinshiman.ga/v2/api/hitomi/list/2', { headers: { Authorization: 'iwantbecouple' } })
             const resData = await res.json()
             setData(resData.list)
         }

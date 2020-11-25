@@ -1,14 +1,12 @@
-import Header from "./routes/Header"
-import Container from "./routes/Container"
-
-import "./normalize.css"
+import './normalize.css'
 import './App.css';
+
+import Home from './routes/Home'
 
 function App() {
     return (
-        <div className="App">
-            <Header />
-            <Container />
+        <div className='App'>
+            <Home />
         </div>
     );
 }
