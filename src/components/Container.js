@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import './Container.css'
 
 import Info from './Info'
 
