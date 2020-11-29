@@ -1,6 +1,9 @@
-import './normalize.css'
+import React from 'react'
 
 import Home from './routes/Home'
+
+// NOTE: Styles;
+import 'normalize.css'
 
 function App() {
     return (
